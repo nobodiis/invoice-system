@@ -23,7 +23,7 @@ export default function RootLayout({
       <html lang="en" className={`${geist.variable}`}>
         <body>
           {children}
-          <div id="clerk-captcha" style={{ display: 'none' }} />
+          <div id="clerk-captcha" style={{ display: "none" }} />
         </body>
       </html>
     </ClerkProvider>
